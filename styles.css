@@ -1,0 +1,59 @@
+.{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  html{
+    font-size: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+  .container{
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    display: grid;
+  }
+  #welcome{
+    background-image: url('https://www.foodiesfeed.com/wp-content/uploads/2019/02/messy-pizza-on-a-black-table.jpg');
+    background-size: cover;
+    background-position: top center;
+    position: relative;
+    z-index: 1;
+    color: orangered;
+    font-size: 200%;
+  }
+  #welcome::after{
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background-image: url(https://media1.tenor.com/images/982d78c54b0b581c36309d76e509e751/tenor.gif?itemid=12680508);
+    background-size: cover;
+    opacity: .3;
+    z-index: -1;
+  }
+  #welcome h1{
+    font-size: 100px;
+  }
+  #gocl{
+    position: relative;
+    display: inline-block;
+    padding: 10px;
+    color: rgb(10, 8, 8);
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    text-decoration: none;
+    font-size: 24px;
+    overflow: hidden;
+    transition: 0.2s;
+  }
+  #gocl:hover{
+    color: #845025;
+    background: #f32f21;
+    box-shadow: 0 0 10px #f32121, 0 0 40px #f32121, 0 0 80px #f32121,;;
+  }
