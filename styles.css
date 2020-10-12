@@ -1,4 +1,4 @@
-.{
+*{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
@@ -184,9 +184,59 @@
    grid-gap: 10px;
     height: auto;
    }
+   .about-pizzon-img {margin-top: -110px; padding-left: 20px;}
+   .footer-box {flex: 0 0 100%; max-width: 100%; text-align: center; padding-top: 40px;}
+   .footer-box{padding-top: 20px;}
   }
   @media(max-width:600px){
     .p-container{
      grid-template-columns:1fr ;
      grid-template-rows: auto;}
     }
+  .contacts{
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTyn1YYi1I58rkTBjtQyiuAruYcOgvgnMdm4A&usqp=CAU');
+    background-size: cover;
+    background-position: top center;
+    position: relative;
+    z-index: 1;
+    color: rgb(247, 242, 234);
+    font-size: 200%;
+  }
+  .contacts::after{
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background-image: url(https://thumbs.gfycat.com/SandySpottedBarebirdbat-size_restricted.gif);
+    background-size: cover;
+    opacity: .3;
+    z-index: -1;
+  }
+  .about-pizzon-img{margin-top: -160px; padding-left: 60px;}
+.about-pizzon-img .pizzon-ab {max-height: 580px;}
+.contc{ padding-top: 10%;}
+span.footer-close {background: #fd9d3e; padding: 2px 16px;}
+
+.bg-form{
+  color: black;
+  background: white;
+}
+.box{
+  border: 15px solid;
+  border-radius: 25px;
+  padding: 25px;
+  margin: 20px;
+}
+.bg3{
+  background-image: url('../images/footback.jpeg');
+  height:auto;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.padding{
+  padding: 50px;
+}
