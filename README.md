@@ -8,7 +8,7 @@ if you need that to be delivered you specify it also there is menu that helps yo
 * Open your browser 
 * go to github
 * search for Nkaka Yves
-* look for assignment 4
+* look for Nkaka-project-assignment 4
 * go in description and open gh-page
 * this is link https://nkaka-yves.github.io/Nkaka-project-Assignment4/
 ## Known Bugs
