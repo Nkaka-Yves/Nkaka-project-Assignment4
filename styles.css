@@ -221,7 +221,10 @@ span.footer-close {background: #fd9d3e; padding: 2px 16px;}
 
 .bg-form{
   color: black;
-  background: rgb(228, 138, 36);
+  background-image: url('images/IMGBIN_pizza-panzerotti-ingredient-submarine-sandwich-recipe-png_thvpaLbL.png');
+  background-size: cover;
+  background-position: top center;
+  position: relative;
 }
 .box{
   overflow: hidden;
@@ -232,7 +235,7 @@ span.footer-close {background: #fd9d3e; padding: 2px 16px;}
   margin: 0px;
 }
 .bg3{
-  background-image: url('../images/footback.jpeg');
+  background-image: url('images/IMGBIN_pizza-panzerotti-ingredient-submarine-sandwich-recipe-png_thvpaLbL.png');
   height:auto;
   background-position: center;
   background-repeat: no-repeat;
