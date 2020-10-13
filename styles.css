@@ -221,13 +221,15 @@ span.footer-close {background: #fd9d3e; padding: 2px 16px;}
 
 .bg-form{
   color: black;
-  background: white;
+  background: rgb(228, 138, 36);
 }
 .box{
-  border: 15px solid;
-  border-radius: 25px;
-  padding: 25px;
-  margin: 20px;
+  overflow: hidden;
+  border-radius: 20px;
+  box-shadow: 2px 2px 13px rgba(0,0,0,0.3);
+  position: relative;
+  padding: 0px;
+  margin: 0px;
 }
 .bg3{
   background-image: url('../images/footback.jpeg');
