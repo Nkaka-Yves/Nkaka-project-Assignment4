@@ -19,4 +19,4 @@ no bugs
 * Javascript
 ## Support and contact details
 If you face an issue let me know on nkakayves515@gmail.com
-Copyright (c) {year} **Nkaka Yves**
+Copyright (c) {2020} **Nkaka Yves**
