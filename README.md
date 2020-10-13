@@ -10,7 +10,7 @@ if you need that to be delivered you specify it also there is menu that helps yo
 * search for Nkaka Yves
 * look for assignment 4
 * go in description and open gh-page
-* this is the link for shortcut https://nkaka-yves.github.io/Nkaka-project-Assignment4/
+* this is link https://nkaka-yves.github.io/Nkaka-project-Assignment4/
 ## Known Bugs
 no bugs
 ## Technologies Used
